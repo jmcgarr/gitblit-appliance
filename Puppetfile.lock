@@ -1,0 +1,22 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (0.0.4)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/java (0.1.6)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (3.0.1)
+
+GIT
+  remote: git@github.com:excellaco/puppet-gitblit.git
+  ref: master
+  sha: 05baebf7b64984b69632724871ee805009cfc2bb
+  specs:
+    gitblit (0.0.1)
+
+DEPENDENCIES
+  gitblit (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/java (>= 0)
+  puppetlabs/stdlib (>= 0)
+
