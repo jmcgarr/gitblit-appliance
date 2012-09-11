@@ -10,7 +10,7 @@ FORGE
 GIT
   remote: git@github.com:excellaco/puppet-gitblit.git
   ref: master
-  sha: 05baebf7b64984b69632724871ee805009cfc2bb
+  sha: bbe77a60bf8e68241dfb0513eec2c1962e42d61a
   specs:
     gitblit (0.0.1)
 
